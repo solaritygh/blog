@@ -1,0 +1,21 @@
+<%- include('partials/head.ejs') %>
+<title>Home | My Blog</title>
+</head>
+<body>
+<div class="center">
+<div class="container">
+<h4 id="montserrat-600" class="text-align-left">solarity-gh</h4>
+<nav class="navbar" id="montserrat-300">
+<a href="/">home</a>
+<a href="/posts">blog</a>
+</ul>
+</nav>
+</div>
+<div id="montserrat-300">
+<h1><%= title %></h1>
+<p><%= date %></p>
+<div><%- postContent %></div>
+</div>
+</div>
+
+<%- include('partials/footer.ejs') %>

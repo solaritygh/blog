@@ -1,0 +1,25 @@
+<%- include('partials/head.ejs') %>
+<title>Home | My Blog</title>
+</head>
+<body>
+<div class="center">
+<div class="container">
+<h4 id="montserrat-600" class="text-align-left">solarity-gh</h4>
+<nav class="navbar" id="montserrat-300">
+<a href="/">home</a>
+<a href="/posts">blog</a>
+</ul>
+</nav>
+</div>
+<h2 id="montserrat-300">
+Welcome to my blog!
+<br />
+<br />
+List of recent posts
+</h2>
+<% posts.forEach(post => { %>
+<% const postFilename = post[0].replace(/\.[^/.]+$/, "") %>
+<% const postTitle = post[1].data.title %>
+<h4 id="montserrat-300"><a id="post-link" href="/posts/<%= postFilename %>"><%= postTitle%></a></h4>
+<% }) %>
+<%- include('partials/footer.ejs') %>

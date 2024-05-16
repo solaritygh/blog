@@ -1,0 +1,122 @@
+/* Your existing CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Apply this class to the parent container of your text */
+.highlight-container {
+    overflow-x: auto; /* Add horizontal scroll if content overflows */
+    width: 100%;
+    background-color: var(--background-accent-color);
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Add scrollbar styling */
+.highlight-container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.highlight-container::-webkit-scrollbar-track {
+    background: var(--background-accent-color); /* Track color */
+}
+
+.highlight-container::-webkit-scrollbar-thumb {
+    background-color: var(--text-color); /* Thumb color */
+    border-radius: 6px; /* Rounded corners */
+}
+
+:root {
+    --background-color: #24273a;
+    --text-color: #cad3f5;
+    --background-accent-color: #181926;
+    --link-color: #b7bdf8;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--text-color)
+}
+
+#montserrat-300 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+}
+
+#montserrat-600 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+#montserrat-900 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+}
+
+.white-text {
+    color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.center {
+    width: 700px;
+    margin: auto;
+}
+
+nav a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+#post-link {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+pre code {
+    background-color: var(--background-accent-color);
+    color: var(--text-color);
+}
+
+p#alt {
+    color: var(--text-color);
+    font-size: small;
+}
+
+p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
