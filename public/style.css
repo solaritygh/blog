@@ -19,6 +19,10 @@
     background: var(--background-accent-color); /* Track color */
 }
 
+ul li {
+    color: var(--text-color);
+}
+
 .highlight-container::-webkit-scrollbar-thumb {
     background-color: var(--text-color); /* Thumb color */
     border-radius: 6px; /* Rounded corners */
@@ -98,6 +102,10 @@ h1, h2, h3, h4, h5, h6, p {
 nav a {
     color: var(--link-color);
     text-decoration: underline;
+}
+
+a {
+    color: var(--link-color);
 }
 
 #post-link {
