@@ -13,7 +13,7 @@ I followed this with GoGuardian.
 
 ## Downloading
 
-First we need to download the extension, but it isn't a normal extension. You can't just get it from the web store. So, here's how to download it: When it's automatically installed, it's in a JSON Policy object called ExtensionInstallForceList. You can find the policies in "edge://policy". So, what is it? There's GoGuardian License, which isn't important. However, we get linked to an XML object on the GoGuardian website. (https://goguardian.com/ext/m.xml). The contents are as following:
+First we need to download the extension, but it isn't a normal extension. You can't just get it from the web store. So, here's how to download it: When it's automatically installed, it's in a JSON Policy object called ExtensionInstallForceList. You can find the policies in "edge://policy" or "chrome://policy". So, what is it? There's GoGuardian License, which isn't important. However, we get linked to an XML object on the GoGuardian website. (https://goguardian.com/ext/m.xml). The contents are as following:
 ```xml
 <gupdate protocol="2.0">
 <app appid="haldlgldplgnggkjaafhelgiaglafanh">
