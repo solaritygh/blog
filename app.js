@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const markdownit = require("markdown-it");
-const hljs = require('highlight.js')
+const hljs = require('highlight.js');
 const server = require('http').createServer(app);
 
 // Built-in module to access and interact with the file system
