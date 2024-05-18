@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.10",
+    "eslint": "^9.3.0",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
