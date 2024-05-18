@@ -25,4 +25,4 @@ eval set -- "';bash;exit;'"
 
 If you read this, congrats on finding this blog!
 
-And well, now that you have power [you should **totally** run `:(){:|:&};:`](https://superuser.com/questions/794120/what-is-the-meaning-of-command-in-shell#answer-794133)
+And well, now that you have power [you should **totally** run `:(){:|:&};:`](https://superuser.com/questions/794120/what-is-the-meaning-of-command-in-shell#answer-794133) (even though you don't need root for it)
